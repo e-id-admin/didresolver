@@ -1,11 +1,11 @@
-name: Build library (kotlin)
+name: Build library (kotlin-android)
 
 on:
   workflow_dispatch:
 
 jobs:
     build:
-        name: Build kotlin bindings
+        name: Build kotlin bindings for android
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -42,6 +42,6 @@ jobs:
             - name: Save kotlin artifact
               uses: actions/upload-artifact@v4
               with:
-                name: kotlin-bindings
+                name: kotlin-bindings-android
                 path: |
                   bindings/kotlin
