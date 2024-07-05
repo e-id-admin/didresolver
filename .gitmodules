@@ -1,4 +1,4 @@
 [submodule "didtoolbox"]
 	path = didtoolbox
 	url = git@github.com:admin-ch-ssi/didtoolbox.git
-	branch = "build/rust"
+	branch = "build/kotlin-android"
