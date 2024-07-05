@@ -14,7 +14,7 @@ pub enum DidMethod {
 pub fn resolve_did_tdw(did: &Did) -> Result<DidDoc, DidResolveError> {
     let processor = TrustDidWebProcessor::new();
     let full_did = did.parts.join(":");
-    let did_doc_json = processor.read(full_did);
+    let did_doc_json = processor.read(full_did, Some(false));
     match serde_json::from_str::<DidDoc>(&did_doc_json) {
         Ok(doc) => Ok(doc),
         Err(e) => {
