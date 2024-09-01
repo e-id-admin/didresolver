@@ -1,6 +1,6 @@
 [package]
 name = "didresolver"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 description = "DID resolver for different did methods"
 authors = ["Jonas Niestroj", "Frithjof Hoppe"]
@@ -21,13 +21,13 @@ serde_json = "1.0.115"
 thiserror = "1.0.58"
 openssl = { version = "0.10.35", features = ["vendored"] }
 uniffi = { version = "0.26.1", features = ["cli"] }
-didtoolbox = {git = "https://github.com/e-id-admin/didtoolbox.git", branch = "build/rust"}
+didtoolbox = {git = "https://github.com/e-id-admin/didtoolbox.git", branch = "build/kotlin-android"}
  
 [build-dependencies]
 uniffi = { version = "0.26.1", features = ["build"] }
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["lib","cdylib","staticlib"]
 name = "didresolver"
 
 [[bin]]
