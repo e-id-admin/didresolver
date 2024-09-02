@@ -450,7 +450,7 @@ dependencies = [
 [[package]]
 name = "didtoolbox"
 version = "0.0.1"
-source = "git+https://github.com/e-id-admin/didtoolbox.git?branch=build/kotlin-android#dedc2415a7f7ea65425c80f78c0c7c7b865589de"
+source = "git+https://github.com/e-id-admin/didtoolbox.git?branch=build/kotlin-android#ad4690bc8d63299d2eefa7fc3cb6351643ccb4a3"
 dependencies = [
  "base32",
  "base64",
