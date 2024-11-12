@@ -1,6 +1,6 @@
 [package]
 name = "didresolver"
-version = "0.0.4"
+version = "0.0.5"
 edition = "2021"
 description = "DID resolver for different did methods"
 authors = ["Jonas Niestroj", "Frithjof Hoppe", "Vladica Stojic"]
@@ -15,7 +15,7 @@ include = [
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = { version = "1.0.213", features = ["derive"] }
+serde = { version = "1.0.215", features = ["derive"] }
 serde_json = "1.0.132"
 thiserror = "1.0.65"
 openssl = { version = "0.10.68", features = ["vendored"] }
@@ -32,7 +32,7 @@ uniffi = { version = "0.28.2", features = ["build"] }
 
 [dev-dependencies]
 rstest = "0.23.0"
-mockito = "1.5.0"
+mockito = "1.6.0"
 ureq = "2.10.1"
 
 [lib]
