@@ -22,7 +22,6 @@ openssl = { version = "0.10.68", features = ["vendored"] }
 uniffi = { version = "0.28.2", features = ["cli"] }
 ssi = { version = "0.9.0", features = ["example", "http-did"] }
 strum = { version = "0.26", features = ["derive"] }
-minify = "1.3"
 didtoolbox = { git = "https://github.com/e-id-admin/didtoolbox.git", branch = "build/kotlin-android" }
 # When building on a container (podman run -it --rm -v $(pwd):$(pwd):Z -v $HOME/.ssh:/root/.ssh:Z -w $(pwd) rust), the local repo may be used:
 #didtoolbox = { path = "../didtoolbox" }
