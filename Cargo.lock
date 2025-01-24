@@ -462,7 +462,7 @@ dependencies = [
 [[package]]
 name = "didtoolbox"
 version = "1.0.1"
-source = "git+https://github.com/e-id-admin/didtoolbox.git?tag=1.0.1#f4e3d03111c2560e844c8f3023133220989a4b91"
+source = "git+https://github.com/e-id-admin/didtoolbox.git?branch=build%2Fkotlin-android#cfc0af6bc216aec91f6d1818a9831f5d21cf33c2"
 dependencies = [
  "bs58",
  "chrono",
