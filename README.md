@@ -21,7 +21,7 @@ This project contains a DID resolver which allows to resolve the following metho
 - [Using the library](#using-the-library)
 - [Example](#example)
 - [Models](#models)
-- [Contributions and feedback](#contributions-and-feedback)
+- [Contributions and Feedback](#contributions-and-feedback)
 - [License](#license)
 
 
