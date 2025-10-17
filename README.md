@@ -120,7 +120,7 @@ classDiagram
 
     }
 ```
-## Contributions and feedback
+## Contributions and Feedback
 
 We welcome any feedback on the code regarding both the implementation and security aspects. Please follow the guidelines for contributing found in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
